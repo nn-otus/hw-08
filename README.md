@@ -34,14 +34,14 @@ root@u24srv08:/etc/default#
 
 #### Попасть в систему без пароля несколькими способами
 
-+Способ 1. init=/bin/bash 
++ Способ 1. init=/bin/bash 
 В конце строки, начинающейся с linux, добавляем init=/bin/bash и нажимаем сtrl-x для загрузки системы. Рутовая файловая система при этом монтируется в режиме Read-Only.
 Для перевода в режим Read-Write можно воспользоваться командой mount -o remount,rw /
 
 Проверить можно командой mount 
 08-1_boot_screen_5.png
 
-+Способ 2. Recovery mode
++ Способ 2. Recovery mode
 В меню загрузчика на первом уровне выбрать второй пункт (Advanced options…), далее загрузить пункт меню с указанием recovery mode в названии. 
 08-1_boot_screen_6.png
 08-1_boot_screen_7.png
